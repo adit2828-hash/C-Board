@@ -1,0 +1,6 @@
+{
+  "name": "StrokeBoard",
+  "description": "Aplikasi AAC komunikasi alternatif berbasis ESP32 BLE dan kedipan mata untuk pengguna dengan keterbatasan gerak",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

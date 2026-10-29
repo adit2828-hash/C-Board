@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">StrokeBoard</string>
+    <string name="app_subtitle">Komunikasi Bantu Berbasis Kedipan &amp; BLE</string>
+    
+    <!-- Connection Status -->
+    <string name="status_disconnected">Terputus</string>
+    <string name="status_connecting">Menghubungkan...</string>
+    <string name="status_connected">Terhubung ke ESP32</string>
+    <string name="status_scanning">Memindai perangkat BLE...</string>
+    <string name="status_error">Terjadi Kesalahan</string>
+    <string name="btn_connect">Hubungkan</string>
+    <string name="btn_disconnect">Putuskan</string>
+    <string name="btn_reconnect">Hubungkan Ulang</string>
+    <string name="btn_scan">Pindai BLE</string>
+    
+    <!-- Sensors & Calibration -->
+    <string name="left_eye_sensor">Sensor Mata Kiri (AO - GPIO35)</string>
+    <string name="right_eye_sensor">Sensor Mata Kanan (AO - GPIO34)</string>
+    <string name="adc_current">ADC Saat Ini: %1$d</string>
+    <string name="threshold_active">Ambang Aktif: %1$d</string>
+    <string name="threshold_pending">Ambang Diedit: %1$d</string>
+    <string name="btn_apply_threshold">Terapkan</string>
+    <string name="btn_reset_threshold">Reset Ambang</string>
+    <string name="btn_refresh_status">Minta Status (GET)</string>
+    <string name="btn_auto_calibrate">Bantuan Kalibrasi</string>
+    <string name="calibration_guide_title">Panduan Kalibrasi TCRT5000</string>
+    
+    <!-- Text Panel Actions -->
+    <string name="placeholder_message">Gunakan kedipan mata atau sentuh huruf di bawah untuk menyusun kalimat...</string>
+    <string name="btn_speak">Bicara</string>
+    <string name="btn_stop_speech">Hentikan Suara</string>
+    <string name="btn_repeat_speech">Ulangi Suara</string>
+    <string name="btn_space">Spasi</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_clear_all">Hapus Semua</string>
+    
+    <!-- Confirmation Dialog -->
+    <string name="dialog_clear_title">Hapus Seluruh Pesan?</string>
+    <string name="dialog_clear_message">Apakah Anda yakin ingin menghapus seluruh teks yang telah disusun? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="dialog_btn_confirm">Ya, Hapus Semua</string>
+    <string name="dialog_btn_cancel">Batal</string>
+    
+    <!-- Navigation & Modes -->
+    <string name="mode_alphabet">Mode Alfabet</string>
+    <string name="mode_controls">Mode Tindakan</string>
+    <string name="mode_settings">Pengaturan</string>
+    <string name="mode_diagnostics">Diagnostik</string>
+    
+    <!-- Accessibility Descriptions -->
+    <string name="cd_theme_toggle">Ganti Tema</string>
+    <string name="cd_settings">Buka Pengaturan</string>
+    <string name="cd_diagnostics">Buka Diagnostik</string>
+    <string name="cd_blink_indicator">Indikator Kedipan</string>
+    <string name="cd_ble_status">Status Bluetooth</string>
+</resources>
